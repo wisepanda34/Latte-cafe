@@ -1,0 +1,40 @@
+.footer{
+  min-height: 187px;
+  background: #ffffff;
+  padding: 56px 20px;
+
+  &__list{
+    max-width: 640px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  &__item{
+
+  }
+  &__link{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1F1F1F;
+    &:hover{
+      color: #D27487;
+    }
+  }
+  &__info{
+    max-width: 433px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin: 30px auto 0;
+
+  }
+  &__info-item{
+    color: #696969;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
