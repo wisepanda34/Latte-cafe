@@ -2,24 +2,16 @@
   position: fixed;
   z-index: 50;
   width: 100vw;
-  height: 120px;
+  height: 80px;
+  background: #4A2B33;
   &__nav{
-    position: absolute;
-    background: #4a2b33;
-    width: 100vw;
-    height: 100%;
-  }
-  &__nav-container{
-    margin: 0 auto;
-    max-width: 1440px;
-    padding: 0 50px 0 10px;
-    height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
+    height: 80px;
+    padding-right: 35px;
+    
   }
-  &__title{
+  &__logo{
     font-family: 'Inter',sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -32,6 +24,7 @@
   }
   &__list{
     display: flex;
+    align-items: center;
     column-gap: 20px;
   }
   &__item{
@@ -89,8 +82,8 @@
 }
 @media (max-width: 375px){
   .header{
-    height: 80px;
-    &__title{
+    height: 60px;
+    &__logo{
       font-size: 24px;
     }
     &__burger{

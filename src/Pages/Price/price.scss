@@ -1,6 +1,5 @@
 .price{
   flex: 0 1 50%;
-  padding: 120px 56px 20px 56px;
   &__block{
     background: #fff;
     padding: 50px 15%;
@@ -11,6 +10,7 @@
     font-weight: 700;
     margin-bottom: 70px;
   }
+  
   &__item{
     margin-bottom: 30px;
     &-title{
@@ -30,7 +30,6 @@
 
 @media (max-width: 1400px) {
   .price{
-    padding: 70px 20px 20px 20px;
     &__block{
       width: 100%;
     }
@@ -38,7 +37,6 @@
 }
 @media (max-width: 576px) {
   .price{
-    padding: 20px 10px;
     &__block{
       width: 100%;
       padding: 50px 10px;

@@ -5,13 +5,13 @@ const Gallery = () => {
             <div className="container">
                 <div className="gallery__wrapper">
                     <div className="gallery__box-1">
-                        <img className="gallery__image" src='/img/1.jpg' alt="img"/>
+                        <img className="gallery__image" src={require('../../Assets/img/1.jpg')} alt="img" />
                     </div>
                     <div className="gallery__box-2">
-                        <img className="gallery__image" src={require('../../Assets/img/2.jpg')} alt="img"/>
+                        <img className="gallery__image" src={require('../../Assets/img/2.jpg')} alt="img" />
                     </div>
                     <div className="gallery__box-3">
-                        <img className="gallery__image" src={require('../../Assets/img/3.jpg')} alt="img"/>
+                        <img className="gallery__image" src={require('../../Assets/img/3.jpg')} alt="img" />
                     </div>
 
 

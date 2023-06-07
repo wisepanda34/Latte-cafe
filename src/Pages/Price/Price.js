@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Price = ({currentMenu}) => {
+const Price = ({ currentMenu }) => {
 
     return (
         <div className="price">
@@ -8,7 +8,7 @@ const Price = ({currentMenu}) => {
                 <h2 className="price__title">{currentMenu.title}</h2>
                 <ul>
                     {
-                        currentMenu && currentMenu.list.map((item,i) => {
+                        currentMenu && currentMenu.list.map((item, i) => {
                             return (
                                 <li className='price__item' key={i}>
                                     <div className='price__item-title'>{item.title}</div>
