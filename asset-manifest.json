@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Latte-cafe/static/css/main.fcacc7b6.css",
+    "main.js": "/Latte-cafe/static/js/main.dc62970b.js",
+    "static/media/home-img.jpg": "/Latte-cafe/static/media/home-img.c2957d891b086362d3b2.jpg",
+    "static/media/3.jpg": "/Latte-cafe/static/media/3.16c981eebc0a70462004.jpg",
+    "static/media/1.jpg": "/Latte-cafe/static/media/1.316513a06802044f17e5.jpg",
+    "static/media/2.jpg": "/Latte-cafe/static/media/2.95cc324eb374e5994b9e.jpg",
+    "index.html": "/Latte-cafe/index.html",
+    "main.fcacc7b6.css.map": "/Latte-cafe/static/css/main.fcacc7b6.css.map",
+    "main.dc62970b.js.map": "/Latte-cafe/static/js/main.dc62970b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcacc7b6.css",
+    "static/js/main.dc62970b.js"
+  ]
+}
